@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Max McCord</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Merriweather|Source+Sans+Pro&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+
+<body>
+    <!-- Navbar modified from getbootstrap.com -->
+    <nav class="navbar navbar-expand-lg ">
+        <a class="navbar-brand" href="index.html">Max McCord</a>
+        <button class="navbar-toggler btn btn-info" type="button" data-toggle="collapse"
+            data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">Links</span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link active" href="index.html">About Me <span
+                        class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                <a class="nav-item nav-link" href="contact.html">Contact</a>
+            </div>
+        </div>
+    </nav>
+    <!-- line to have background image below everything - css written to have it reach 1200px down -->
+    <div class="main" style="background-image: url(./assets/images/gravel.png);">
+        <div class="container">
+            <!-- Row to include Header 2 About Me -->
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="h2 border-bottom border-secondary">About Me</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <!-- Row to include Photo and Text - col-12 to have columns stack in smaller window - 
+                    col-lg-6 to have columns side by side in a larger window -->
+                <img class="col-12 col-lg-6 resize" src="./assets/images/20190407_072901.jpeg" alt="Picture of Max">
+                <p class="col-12 col-lg-6">
+                    My name is Max McCord. I was born in upstate New York. I moved to Minnesota in 1993.
+                    I began this journey of web development after a career in Account Services, Analyzing Storage
+                    Area
+                    Networks for Dell Technologies.
+                    <br> <br> My family moved to San Diego, CA when I was 4 and lived there until I was 10.
+                    My mother and I moved to Racine, WI to live near my Grandparents. <br> <br>
+                    Please take a look at the items on the Portfolio page to see the work I have been (will be) up
+                    to.
+                    <br><br>
+                    The picture to the left was taken just before I ran Goldy's Run in April 2019.
+                    This was my first organized 5k race after rupturing my Achilies Tendon in October of 2017.
+                </p>
+
+            </div>
+        </div>
+    </div>
+    <footer class="footer">Copyright &#169 Max McCord</footer>
+
+
+<!-- links to javascript so navbar button works properly and allows links to be accessed -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
